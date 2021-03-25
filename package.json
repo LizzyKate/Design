@@ -1,0 +1,28 @@
+{
+	"name": "engage-site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss build src/styles.css -o public/styles.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LizzyKate/Design.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/LizzyKate/Design/issues"
+	},
+	"homepage": "https://github.com/LizzyKate/Design#readme",
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^4.0.2",
+		"purgecss": "^4.0.2"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.2.5",
+		"postcss": "^8.2.8",
+		"tailwindcss": "^2.0.3"
+	}
+}
