@@ -30,6 +30,8 @@ body {
 }
 .__register {
 	background: #32ba85;
+	border-radius: 18px;
+	line-height: 21px;
 	font-family: "Poppins";
 }
 .about__card {
@@ -431,9 +433,20 @@ body {
 	top: -57px;
 	right: 37px;
 }
-.__tags,
+.__tags {
+	border-radius: 30px;
+	/* width: 366px;
+	height: 365px; */
+}
+.fit {
+	width: 28%;
+}
+
 .__articleTag {
 	border-radius: 30px;
+	font-family: "Poppins";
+	line-height: 18px;
+	letter-spacing: 0.1em;
 }
 .__article {
 	min-height: 262px;
@@ -441,19 +454,59 @@ body {
 .__time {
 	color: #121212;
 	font-family: "Poppins";
+	line-height: 18px;
+}
+.__describe {
+	color: #001a41 !important;
+	font-family: "Poppins";
+	line-height: 36px;
 }
 .__name {
 	color: #001a41 !important;
 	font-family: "Poppins";
+	line-height: 22.4px;
+	letter-spacing: 0.01em;
 }
 .__blog {
 	font-family: "Inter";
-	line-height: 25.6px;
-	color: #828282;
+	line-height: 22.4px;
+	color: #74859c;
+	letter-spacing: 0.01em;
 }
 .__date {
-	color: #828282;
+	color: #74859c;
 	font-family: "Poppins";
+	line-height: 19.2px;
+	letter-spacing: 0.01em;
+}
+.__des {
+	font-family: "Inter";
+	letter-spacing: 0.01em;
+	color: #74859c;
+}
+.__inc {
+	font-family: "Poppins";
+	color: #74859c;
+	letter-spacing: 0.01em;
+}
+.__sub {
+	color: #0c56c2;
+	font-size: 36px;
+	font-weight: 600;
+	font-family: "Poppins";
+	line-height: 54px;
+	letter-spacing: 0.01em;
+}
+.__spam {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #74859c;
+}
+.__input::placeholder {
+	color: #121212;
 }
 @media only screen and (min-width: 2000px) {
 	body,
