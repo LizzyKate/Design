@@ -38,6 +38,8 @@ body {
 .__register {
 	background: #32ba85;
 	font-family: "Poppins";
+	border-radius: 18px;
+	line-height: 21px;
 }
 .__pricing h3 {
 	font-family: "Poppins";
