@@ -1,4 +1,4 @@
-export const autoplay = (embla, interval) => {
+const autoplay = (embla, interval) => {
     let timer = 0;
 
     const play = () => {
