@@ -1,0 +1,174 @@
+.banner_header_text {
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 212px;
+  /*     
+    //styleName: Header 2;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: 0.01em;
+    text-align: center; */
+}
+
+.banner_small_text {
+  margin: auto;
+  max-width: 495px;
+  margin-top: 20px;
+  margin-bottom: 126px;
+}
+
+.background-centers {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* back */
+}
+
+.background-centers_ {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+
+#__banner {
+  background-image: url("../image/integrations-banner.svg");
+}
+
+#hero {
+  background-image: url("../image/Hero-integrations.svg");
+  overflow-x: hidden;
+}
+
+.__sect img:nth-of-type(2) {
+  /* width: 50%; */
+  height: 699px;
+}
+
+.__sect img:nth-of-type(1),
+.__sect img:nth-of-type(3) {
+  width: 25%;
+}
+
+.__affiliates {
+  margin-bottom: 89px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+._author_quote {
+  height: 35px;
+  width: 35px;
+}
+
+#integrations {
+  margin-top: 84px;
+}
+
+.__integrations_sub_text {
+  margin-top: 40px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.try_for_free {
+  background-color: #32ba85;
+  padding: 17.5px 40px;
+}
+
+.try_for_free {
+  margin-top: 40px;
+}
+
+.breaker {
+  background-color: rgba(0, 0, 0, 0.516);
+  height: 3px;
+  margin-top: 40px;
+  opacity: 0.6;
+}
+
+.quote {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 80%;
+  color: #001a41;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+#try_for_free_container {
+  /* max-width: 70px; */
+}
+
+._mx {
+  max-width: 470px;
+}
+
+.__mission_card_container {
+  margin-top: 70px;
+}
+.___title {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.author_quote_name {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.__experience {
+  background: linear-gradient(
+    180deg,
+    rgba(12, 86, 194, 0.1) 0%,
+    rgba(12, 86, 194, 0.1) 100%
+  );
+  margin-top: 134px;
+  padding-top: 91px;
+}
+.__experience .___title {
+  margin-bottom: 40px;
+}
+
+.__title__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  max-width: 417px;
+}
+
+.accordion{
+    max-width: 500px;
+}
