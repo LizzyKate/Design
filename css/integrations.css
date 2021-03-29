@@ -148,8 +148,8 @@
 .__experience {
   background: linear-gradient(
     180deg,
-    rgba(12, 86, 194, 0.1) 0%,
-    rgba(12, 86, 194, 0.1) 100%
+    rgb(12 86 194 / 23%) 0%,
+    rgb(255 255 255 / 66%) 100%
   );
   margin-top: 134px;
   padding-top: 91px;
@@ -169,6 +169,110 @@
   max-width: 417px;
 }
 
-.accordion{
-    max-width: 500px;
+.accordion {
+  max-width: 500px;
+}
+
+.__tools_header {
+  font-family: Poppins;
+  color: #0c56c2;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+#tools div div:nth-of-type(2) {
+  margin-left: 90px;
+}
+
+#tools {
+  margin: 127px 0;
+}
+
+.__tools_text {
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.tools_quick_tip {
+  background-color: #32ba8652;
+  color: #32ba85;
+  margin-bottom: 10px;
+  padding: 9px 18px;
+}
+
+#compliments {
+  background-image: url("../image/jumbo-bottomd.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimony_quote {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+#compliments h2 {
+  margin-top: 60px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+#compliments p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.__question {
+  background: #001a41;
+  border-radius: 15px;
+}
+
+.__question h6 {
+  color: #32ba85;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.__question p {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.__highlight:hover {
+  background: #001a4131;
+  color: #0c56c2;
 }
