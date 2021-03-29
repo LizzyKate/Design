@@ -6,23 +6,14 @@
   line-height: 63px;
   letter-spacing: 0.01em;
   text-align: center;
-  margin-top: 212px;
-  /*     
-    //styleName: Header 2;
-    font-family: Poppins;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 63px;
-    letter-spacing: 0.01em;
-    text-align: center; */
+  padding-top: 212px;
 }
 
 .banner_small_text {
   margin: auto;
   max-width: 495px;
   margin-top: 20px;
-  margin-bottom: 126px;
+  padding-bottom: 126px;
 }
 
 .background-centers {
@@ -41,6 +32,9 @@
 
 #__banner {
   background-image: url("../image/integrations-banner.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero {
@@ -71,6 +65,10 @@
 
 #integrations {
   margin-top: 84px;
+  background-image: url(../image/integrations-banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .__integrations_sub_text {
